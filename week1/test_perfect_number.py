@@ -1,6 +1,6 @@
 import unittest
 
-from week1.perfect_number import get_perfect_number
+from perfect_number import get_perfect_number
 
 class Test_perfection(unittest.TestCase):
     def test_perfect_number(self):
