@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./week1",
+        "./week4",
         "-p",
         "*test*.py"
     ],
