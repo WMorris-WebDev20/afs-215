@@ -18,6 +18,7 @@ class TestClass(unittest.TestCase):
    # Can add an item
     def test_CanAddItem(self):
         self.checkClass.add_item("beans")
+        self.checkClass.add_item("beans")
         print("--Question 2 -- Items:",self.checkClass.items)
 
 # Can add an item price
@@ -45,7 +46,7 @@ class TestClass(unittest.TestCase):
 
 # Can add discount rules
     def test_DiscountRule(self):
-        self.checkClass.discount("chicken", 3 , 2)
+        self.checkClass.discount("chicken", .5 , 2)
 
 # Can apply discount rules to the total
     def test_ApplyDiscount(self):
