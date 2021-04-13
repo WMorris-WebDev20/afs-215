@@ -1,0 +1,15 @@
+{
+  "name": "week5fizzbuzz",
+  "version": "1.0.0",
+  "description": "This is for using unit tests with JavaScript",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
