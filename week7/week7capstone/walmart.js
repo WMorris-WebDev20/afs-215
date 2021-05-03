@@ -69,8 +69,11 @@ class Walmart{
 
         let check = this.item.map(item => item.name).indexOf(product)
 
-        if (check != 1){
+        if (check != -1){
             this.item[check].price = price
+        }
+        else{
+            throw new Error("Item does not exist to add price")
         }
 
     }

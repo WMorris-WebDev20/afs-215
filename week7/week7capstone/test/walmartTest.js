@@ -61,7 +61,10 @@ describe('Testing Adding To The Cart', () => {
         }) 
         it('Should Throw No Price Error', () => {            
             expect(() => checkout.addItem('Not Chicken')).to.throw();            
-        })    
+        }) 
+        it('Should Throw Item Does Not Exist To Add Price Error', () => {            
+            expect(() => checkout.addPrice('Not Chicken',.99)).to.throw();     
+        })   
     })
 
 })
